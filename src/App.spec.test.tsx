@@ -14,6 +14,4 @@ it("import", async () => {
   `);
   await userEvent.click(button);
   expect(button.innerHTML).toMatch(/1/);
-
-
 })
